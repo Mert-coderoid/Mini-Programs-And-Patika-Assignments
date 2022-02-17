@@ -1,0 +1,9 @@
+![soru5](https://cdn.discordapp.com/attachments/922810114958831647/923931247552651304/sqlodev1.png)
+-----
+![soru1](https://cdn.discordapp.com/attachments/922810114958831647/923931246424371230/sql-odev-1-soru-2.png)
+-----
+![soru2](https://cdn.discordapp.com/attachments/922810114958831647/923931246671839262/sql-odev-1-soru-3.png)
+-----
+![soru3](https://cdn.discordapp.com/attachments/922810114958831647/923931246973812746/sql-odev-1-soru-4.png)
+-----
+![soru4](https://cdn.discordapp.com/attachments/922810114958831647/923931247229693962/sql-odev-1-soru-5.png)

@@ -1,0 +1,19 @@
+
+input= [[1,'a',['cat'],2],[[[3]],'dog'],4,5]
+
+from typing import List, Any, Iterable
+
+
+def flatten_recursive(lst: List[Any]) -> Iterable[Any]:
+    for item in lst:
+        if isinstance(item, list):
+            yield from flatten_recursive(item)
+        else:
+            yield item
+
+def test_flatten_recursive():
+    lst = [[1, 3], [2, 5], 1]
+
+    assert list(flatten_recursive(lst)) == [1, 3, 2, 5, 1]
+
+print(list(flatten_recursive(input)))

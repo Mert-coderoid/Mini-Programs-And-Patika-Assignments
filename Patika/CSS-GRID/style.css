@@ -1,0 +1,55 @@
+div {
+	font-size: 1em;
+	text-transform: uppercase;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* .container {
+	display: grid;
+	grid-template: repeat(2, 110px) / repeat(3, 1fr);
+	grid-gap: 3px;
+	margin-bottom: 200px;
+}
+
+.container div {
+	text-align: center;
+	font-size: 2em;
+}
+
+.container div:nth-child(2n-1) {
+	background-color: rgb(59, 184, 132);
+}
+.container div:nth-child(2n) {
+	background-color: rgb(149, 59, 184);
+} */
+
+.web-1 div:nth-child(2n) {
+	background: #b0c555;
+}
+.web-1 div:nth-child(2n-1) {
+	background: #5593c5;
+}
+
+.web-1 {
+	display: grid;
+	grid-gap: 3px;
+	grid-template-columns:repeat(12,1fr);
+   grid-template-rows: 40px 100px 40px;
+
+}
+
+.header {
+	grid-column: 1/10;
+}
+.menu{
+   grid-row: 1/-1;
+   grid-column: 10/-1;
+}
+
+.content{
+   grid-column: 1/10;
+}
+
+.footer{
+   grid-column: 1/10;
+}
