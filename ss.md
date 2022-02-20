@@ -1,0 +1,1 @@
+![](https://media.discordapp.net/attachments/922810114958831647/944977791793901668/Ekran_goruntusu_2022-02-20_182351.png?width=1117&height=671)
