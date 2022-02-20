@@ -143,3 +143,27 @@ dist
 .svelte-kit
 
 # End of https://www.toptal.com/developers/gitignore/api/node
+
+node_modules
+.cache
+.node-gyp
+.npmrc
+.npmignore
+.npmrc.js
+.npmrc.json
+.npmrc.yaml
+.npmrc.yml
+.yarn-integrity
+.yarn-metadata.json
+.yarnclean
+.yarn-integrity
+.yarn-metadata.json
+.yarnclean
+.yarn-integrity
+.yarn-metadata.json
+.yarnclean
+.yarn-integrity
+.yarn-metadata.json
+.yarnclean
+.yarn-integrity
+.yarn-metadata.json
