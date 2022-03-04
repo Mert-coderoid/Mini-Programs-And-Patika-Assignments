@@ -5,7 +5,7 @@ from selenium.webdriver.common.keys import Keys
 
 link = "https://www.cimri.com/bebek-kulodu"
 
-DRIVER_PATH = 'C:/Users/yilma/PythonProjects/chromedriver.exe'
+DRIVER_PATH = './chromedriver.exe'
 driver = webdriver.Chrome()
 players = driver.get(link)
 time.sleep(3)

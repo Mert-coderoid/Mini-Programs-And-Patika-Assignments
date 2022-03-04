@@ -2,7 +2,7 @@ import time
 from selenium import webdriver
 
 def dataWithXpath(path):
-    DRIVER_PATH = 'C:/Users/yilma/PythonProjects/chromedriver.exe'
+    DRIVER_PATH = './chromedriver.exe'
     driver = webdriver.Chrome()
     players = driver.get(link)
     time.sleep(3)
@@ -14,7 +14,7 @@ def dataWithXpath(path):
     driver.close()  
 
 def dataWithCssSelector(path):
-    DRIVER_PATH = 'C:/Users/yilma/PythonProjects/chromedriver.exe'
+    DRIVER_PATH = './chromedriver.exe'
     driver = webdriver.Chrome()
     players = driver.get(link)
     time.sleep(3)
@@ -26,7 +26,7 @@ def dataWithCssSelector(path):
     driver.close() 
 
 def dataWithClassName(path):
-    DRIVER_PATH = 'C:/Users/yilma/PythonProjects/chromedriver.exe'
+    DRIVER_PATH = './chromedriver.exe'
     driver = webdriver.Chrome()
     players = driver.get(link)
     time.sleep(3)
@@ -44,7 +44,7 @@ while True:
     print(":.: ", (link.split("/")[2]))
 
     if link.split("/")[2] == "www.amazon.com.tr":
-        DRIVER_PATH = 'C:/Users/yilma/PythonProjects/chromedriver.exe'
+        DRIVER_PATH = './chromedriver.exe'
         driver = webdriver.Chrome()
         players = driver.get(link)
         time.sleep(3)
@@ -65,7 +65,7 @@ while True:
 
 
     elif link.split("/")[2] == "www.epey.com":
-        DRIVER_PATH = 'C:/Users/yilma/PythonProjects/chromedriver.exe'
+        DRIVER_PATH = './chromedriver.exe'
         driver = webdriver.Chrome()
         players = driver.get(link)
         driver.maximize_window()
@@ -85,7 +85,7 @@ while True:
     
 
     elif link.split("/")[2] == "www.trendyol.com":
-        DRIVER_PATH = 'C:/Users/yilma/PythonProjects/chromedriver.exe'
+        DRIVER_PATH = './chromedriver.exe'
         driver = webdriver.Chrome()
         players = driver.get(link)
         driver.maximize_window()
@@ -108,7 +108,7 @@ while True:
   
 
     elif link.split("/")[2] == "www.cimri.com":
-        DRIVER_PATH = 'C:/Users/yilma/PythonProjects/chromedriver.exe'
+        DRIVER_PATH = './chromedriver.exe'
         driver = webdriver.Chrome()
         players = driver.get(link)
         time.sleep(3)
@@ -150,7 +150,7 @@ while True:
     elif link.split("/")[2] == "www.n11.com":
         
 
-        DRIVER_PATH = 'C:/Users/yilma/PythonProjects/chromedriver.exe'
+        DRIVER_PATH = './chromedriver.exe'
         driver = webdriver.Chrome()
         players = driver.get(link)
         driver.maximize_window()
@@ -172,7 +172,7 @@ while True:
 
 
     elif link.split("/")[2] == "www.gittigidiyor.com":
-        DRIVER_PATH = 'C:/Users/yilma/PythonProjects/chromedriver.exe'
+        DRIVER_PATH = './chromedriver.exe'
         driver = webdriver.Chrome()
         players = driver.get(link)
         driver.maximize_window()
@@ -195,7 +195,7 @@ while True:
     
     
     elif link.split("/")[2] == "www.akakce.com":
-        DRIVER_PATH = 'C:/Users/yilma/PythonProjects/chromedriver.exe'
+        DRIVER_PATH = './chromedriver.exe'
         driver = webdriver.Chrome()
         players = driver.get(link)
         driver.maximize_window()
